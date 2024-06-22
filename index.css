@@ -8,8 +8,9 @@
     src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
 :root{
-    --text-color:#742b48;
-    --paragraph-color:#000000a8;
+    --text-color:hsl(332, 51%, 32%);
+    --title-color:hsl(14, 45%, 36%);
+    --paragraph-color:hsla(0, 0%, 0%, 0.659);
 }
 body {
     margin: 0;
@@ -111,7 +112,7 @@ ul > li > p {
 section h2 {
     font-size: 1.7em;
     letter-spacing: 1px;
-    color: #82452f;
+    color: var(--title-color);
 }
 
 .Ingredients ~ div {
@@ -135,7 +136,7 @@ section h2 {
 }
 
 .Nutrition > p ~ div > strong {
-    color: #82452f;
+    color: var(--title-color);
 }
 
 @media screen and (max-width:576px) {
